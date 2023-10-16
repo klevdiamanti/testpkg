@@ -18,3 +18,5 @@ Imports:
     ggplot2,
     rlang
 VignetteBuilder: knitr
+URL: https://github.com/klevdiamanti/testpkg
+BugReports: https://github.com/klevdiamanti/testpkg/issues
