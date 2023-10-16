@@ -92,12 +92,10 @@ plot_colours <- function(colours) {
   plot_data <- data.frame(Colour = colours)
 
   plot_data |>
-    ggplot2::ggplot(
-      mapping = ggplot2::aes(
-        x = .data[["Colour"]],
-        y = 1,
-        fill = .data[["Colour"]],
-        label = .data[["Colour"]])) +
+    ggplot2::ggplot(mapping = ggplot2::aes(x = .data[["Colour"]],
+                                           y = 1,
+                                           fill = .data[["Colour"]],
+                                           label = .data[["Colour"]])) +
     ggplot2::geom_tile() +
     ggplot2::geom_text(angle = "90") +
     ggplot2::scale_fill_identity() +

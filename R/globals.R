@@ -1,5 +1,1 @@
-utils::globalVariables(
-  c(
-    ".env"
-    )
-  )
+utils::globalVariables(c(".env"))
