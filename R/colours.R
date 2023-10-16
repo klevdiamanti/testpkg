@@ -57,7 +57,6 @@ make_shades <- function(colour, n, lighter = TRUE) {
 #' shades <- make_shades("goldenrod", 5)
 #' plot_colours(shades)
 #'
-#' @importFrom ggplot2 ggplot aes geom_tile geom_text scale_fill_identity theme_void
 #' @importFrom rlang .data
 plot_colours <- function(colours) {
   plot_data <- data.frame(Colour = colours)
@@ -88,7 +87,6 @@ plot_colours <- function(colours) {
 #' shades <- make_shades("goldenrod", 5)
 #' plot_colours(shades)
 #'
-#' @importFrom ggplot2 ggplot aes geom_tile geom_text scale_fill_identity theme_void
 #' @importFrom rlang .data
 plot_colours <- function(colours) {
   plot_data <- data.frame(Colour = colours)

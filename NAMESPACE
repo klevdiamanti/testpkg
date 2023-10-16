@@ -2,10 +2,4 @@
 
 export(make_shades)
 export(plot_colours)
-importFrom(ggplot2,aes)
-importFrom(ggplot2,geom_text)
-importFrom(ggplot2,geom_tile)
-importFrom(ggplot2,ggplot)
-importFrom(ggplot2,scale_fill_identity)
-importFrom(ggplot2,theme_void)
 importFrom(rlang,.data)
